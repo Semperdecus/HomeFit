@@ -1,31 +1,55 @@
 import React, { Component } from 'react'
-import { ScrollView, Text, Image, View } from 'react-native'
-import DevscreensButton from '../../ignite/DevScreens/DevscreensButton.js'
-
-import { Images } from '../Themes'
+import { FlatList, TouchableOpacity, StatusBar, ScrollView, Text, Image, View } from 'react-native'
+import * as Animatable from 'react-native-animatable'
 
 // Styles
+import { Colors, Images } from '../Themes'
 import styles from './Styles/LaunchScreenStyles'
 
+// Components
+import HeaderButton from '../Components/HeaderButton'
+import FitCalendar from '../Components/FitCalendar'
+import CalendarListItem from '../Components/CalendarListItem'
+
 export default class LaunchScreen extends Component {
+  constructor () {
+    super()
+    this.state = {
+      selectedData: true
+    }
+  }
+
   render () {
     return (
       <View style={styles.mainContainer}>
         <Image source={Images.background} style={styles.backgroundImage} resizeMode='stretch' />
+        <StatusBar hidden backgroundColor={Colors.transparent} barStyle='light-content' translucent />
         <ScrollView style={styles.container}>
-          <View style={styles.centered}>
-            <Image source={Images.launch} style={styles.logo} />
+          <Text style={styles.title}>Calendar</Text>
+          <View style={styles.innerContainer}>
+            <FitCalendar
+              onSelectDate={value => this.setState({ selectedData: value })}
+            />
           </View>
-
-          <View style={styles.section} >
-            <Image source={Images.ready} />
-            <Text style={styles.sectionText}>
-              This probably isn't what your app is going to look like. Unless your designer handed you this screen and, in that case, congrats! You're ready to ship. For everyone else, this is where you'll see a live preview of your fully functioning app using Ignite.
-            </Text>
-          </View>
-
-          <DevscreensButton />
+          <FlatList
+            data={this.state.selectedData}
+            renderItem={({ item }) => (
+              <View style={styles.listItem}>
+                <CalendarListItem
+                  red
+                />
+              </View>
+            )}
+            keyExtractor={(item, index) => index.toString()}
+          />
         </ScrollView>
+        <HeaderButton left
+          onPress={() => window.alert('additional browsing calendar options.')}
+        />
+        <HeaderButton right
+          onPress={() => null}
+        />
+        <Text>DONT FORGOT REDUX STATE COLOR CHANGE THEME :D</Text>
       </View>
     )
   }

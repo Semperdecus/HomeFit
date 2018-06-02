@@ -51,6 +51,17 @@
 		5D5A1CE318714128978D2CF8 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 077CC5188DD9484081D570B5 /* Zocial.ttf */; };
 		16C2BEB5A3914291B6EB8060 /* libRNI18n.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D23C17070AA84600AA90B9F7 /* libRNI18n.a */; };
 		49C4128DD1584077A3A68DF3 /* RNI18nTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 73D7F9935CAC4B3BA57D8524 /* RNI18nTests.xctest */; };
+		740F2918F17041399857B619 /* libReactNativeConfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF483C395B949508B8A4B6E /* libReactNativeConfig.a */; };
+		4F00C6E1317A44E084D61ACA /* Catamaran-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1267F6885286400AB04CD4A9 /* Catamaran-Black.ttf */; };
+		E42FD92D9C444B788BCFF1A2 /* Catamaran-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C54A3CD8618C458D873DFEBF /* Catamaran-Bold.ttf */; };
+		1DB31B2A5AA64B128A21E9E3 /* Catamaran-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8108FA4F79F141F880D61212 /* Catamaran-ExtraBold.ttf */; };
+		B66ED536317248D9A29F99F7 /* Catamaran-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08CB17F73A5A446FB88C920C /* Catamaran-ExtraLight.ttf */; };
+		C9A0429476AD43DAA942B841 /* Catamaran-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65B39A74259E49D1B3118B3A /* Catamaran-Light.ttf */; };
+		AD719B945F5A4004B8DC7499 /* Catamaran-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D124FC171A94D9DB82FF534 /* Catamaran-Medium.ttf */; };
+		23E93F80DBA34960B62FAC10 /* Catamaran-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3E96C72FAC64516B1F6C97F /* Catamaran-Regular.ttf */; };
+		A547FE5D8FF34C478E0E5E5F /* Catamaran-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 306DCEF37934416B9C3DF1F1 /* Catamaran-SemiBold.ttf */; };
+		81718803F3414299AE2CC2E8 /* Catamaran-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5E4E921F0FE4BAB97F91A2F /* Catamaran-Thin.ttf */; };
+		D4B93D83591E4F3DA809C92F /* libRNTBgImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC92B2A45C1E45C8A8A86DC2 /* libRNTBgImage.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -373,6 +384,19 @@
 		4F805E1BB8ED4123B8F5323F /* RNI18n.xcodeproj */ = {isa = PBXFileReference; name = "RNI18n.xcodeproj"; path = "../node_modules/react-native-i18n/RNI18n.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		D23C17070AA84600AA90B9F7 /* libRNI18n.a */ = {isa = PBXFileReference; name = "libRNI18n.a"; path = "libRNI18n.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 		73D7F9935CAC4B3BA57D8524 /* RNI18nTests.xctest */ = {isa = PBXFileReference; name = "RNI18nTests.xctest"; path = "RNI18nTests.xctest"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.cfbundle; explicitFileType = undefined; includeInIndex = 0; };
+		95F28AB5D2DA4618B2913FEA /* ReactNativeConfig.xcodeproj */ = {isa = PBXFileReference; name = "ReactNativeConfig.xcodeproj"; path = "../node_modules/react-native-config/ios/ReactNativeConfig.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		1FF483C395B949508B8A4B6E /* libReactNativeConfig.a */ = {isa = PBXFileReference; name = "libReactNativeConfig.a"; path = "libReactNativeConfig.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		1267F6885286400AB04CD4A9 /* Catamaran-Black.ttf */ = {isa = PBXFileReference; name = "Catamaran-Black.ttf"; path = "../assets/fonts/Catamaran-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C54A3CD8618C458D873DFEBF /* Catamaran-Bold.ttf */ = {isa = PBXFileReference; name = "Catamaran-Bold.ttf"; path = "../assets/fonts/Catamaran-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8108FA4F79F141F880D61212 /* Catamaran-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Catamaran-ExtraBold.ttf"; path = "../assets/fonts/Catamaran-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		08CB17F73A5A446FB88C920C /* Catamaran-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Catamaran-ExtraLight.ttf"; path = "../assets/fonts/Catamaran-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		65B39A74259E49D1B3118B3A /* Catamaran-Light.ttf */ = {isa = PBXFileReference; name = "Catamaran-Light.ttf"; path = "../assets/fonts/Catamaran-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8D124FC171A94D9DB82FF534 /* Catamaran-Medium.ttf */ = {isa = PBXFileReference; name = "Catamaran-Medium.ttf"; path = "../assets/fonts/Catamaran-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C3E96C72FAC64516B1F6C97F /* Catamaran-Regular.ttf */ = {isa = PBXFileReference; name = "Catamaran-Regular.ttf"; path = "../assets/fonts/Catamaran-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		306DCEF37934416B9C3DF1F1 /* Catamaran-SemiBold.ttf */ = {isa = PBXFileReference; name = "Catamaran-SemiBold.ttf"; path = "../assets/fonts/Catamaran-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A5E4E921F0FE4BAB97F91A2F /* Catamaran-Thin.ttf */ = {isa = PBXFileReference; name = "Catamaran-Thin.ttf"; path = "../assets/fonts/Catamaran-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7BD4769F8E134015A5ACF5B0 /* RNTBgImage.xcodeproj */ = {isa = PBXFileReference; name = "RNTBgImage.xcodeproj"; path = "../node_modules/react-native-bgimage/ios/RNTBgImage.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		CC92B2A45C1E45C8A8A86DC2 /* libRNTBgImage.a */ = {isa = PBXFileReference; name = "libRNTBgImage.a"; path = "libRNTBgImage.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -405,6 +429,8 @@
 				A225EACB5D864A7DB20829BF /* libRNVectorIcons.a in Frameworks */,
 				16C2BEB5A3914291B6EB8060 /* libRNI18n.a in Frameworks */,
 				49C4128DD1584077A3A68DF3 /* RNI18nTests.xctest in Resources */,
+				740F2918F17041399857B619 /* libReactNativeConfig.a in Frameworks */,
+				D4B93D83591E4F3DA809C92F /* libRNTBgImage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,6 +620,8 @@
 				16E2FED91C42480795AEA383 /* RNDeviceInfo.xcodeproj */,
 				3BCC1FD8603D45F6BA9C755A /* RNVectorIcons.xcodeproj */,
 				4F805E1BB8ED4123B8F5323F /* RNI18n.xcodeproj */,
+				95F28AB5D2DA4618B2913FEA /* ReactNativeConfig.xcodeproj */,
+				7BD4769F8E134015A5ACF5B0 /* RNTBgImage.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -655,6 +683,15 @@
 				854104A85D8A4876BD4240D9 /* Octicons.ttf */,
 				8EF3852D65DA4EE1B6914782 /* SimpleLineIcons.ttf */,
 				077CC5188DD9484081D570B5 /* Zocial.ttf */,
+				1267F6885286400AB04CD4A9 /* Catamaran-Black.ttf */,
+				C54A3CD8618C458D873DFEBF /* Catamaran-Bold.ttf */,
+				8108FA4F79F141F880D61212 /* Catamaran-ExtraBold.ttf */,
+				08CB17F73A5A446FB88C920C /* Catamaran-ExtraLight.ttf */,
+				65B39A74259E49D1B3118B3A /* Catamaran-Light.ttf */,
+				8D124FC171A94D9DB82FF534 /* Catamaran-Medium.ttf */,
+				C3E96C72FAC64516B1F6C97F /* Catamaran-Regular.ttf */,
+				306DCEF37934416B9C3DF1F1 /* Catamaran-SemiBold.ttf */,
+				A5E4E921F0FE4BAB97F91A2F /* Catamaran-Thin.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1116,6 +1153,15 @@
 				70DB2F111C75444C930CCD5D /* Octicons.ttf in Resources */,
 				9E1086E3068842CA812B681C /* SimpleLineIcons.ttf in Resources */,
 				5D5A1CE318714128978D2CF8 /* Zocial.ttf in Resources */,
+				4F00C6E1317A44E084D61ACA /* Catamaran-Black.ttf in Resources */,
+				E42FD92D9C444B788BCFF1A2 /* Catamaran-Bold.ttf in Resources */,
+				1DB31B2A5AA64B128A21E9E3 /* Catamaran-ExtraBold.ttf in Resources */,
+				B66ED536317248D9A29F99F7 /* Catamaran-ExtraLight.ttf in Resources */,
+				C9A0429476AD43DAA942B841 /* Catamaran-Light.ttf in Resources */,
+				AD719B945F5A4004B8DC7499 /* Catamaran-Medium.ttf in Resources */,
+				23E93F80DBA34960B62FAC10 /* Catamaran-Regular.ttf in Resources */,
+				A547FE5D8FF34C478E0E5E5F /* Catamaran-SemiBold.ttf in Resources */,
+				81718803F3414299AE2CC2E8 /* Catamaran-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1253,12 +1299,16 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-device-info\RNDeviceInfo",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-i18n\RNI18n",
+					"$(SRCROOT)\..\node_modules\react-native-config\ios\ReactNativeConfig",
+					"$(SRCROOT)\..\node_modules\react-native-bgimage\ios\RNTBgImage",
 				);
 			};
 			name = Debug;
@@ -1283,12 +1333,16 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-device-info\RNDeviceInfo",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-i18n\RNI18n",
+					"$(SRCROOT)\..\node_modules\react-native-config\ios\ReactNativeConfig",
+					"$(SRCROOT)\..\node_modules\react-native-bgimage\ios\RNTBgImage",
 				);
 			};
 			name = Release;
@@ -1313,6 +1367,8 @@
 					"$(SRCROOT)\..\node_modules\react-native-device-info\RNDeviceInfo",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-i18n\RNI18n",
+					"$(SRCROOT)\..\node_modules\react-native-config\ios\ReactNativeConfig",
+					"$(SRCROOT)\..\node_modules\react-native-bgimage\ios\RNTBgImage",
 				);
 			};
 			name = Debug;
@@ -1336,6 +1392,8 @@
 					"$(SRCROOT)\..\node_modules\react-native-device-info\RNDeviceInfo",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-i18n\RNI18n",
+					"$(SRCROOT)\..\node_modules\react-native-config\ios\ReactNativeConfig",
+					"$(SRCROOT)\..\node_modules\react-native-bgimage\ios\RNTBgImage",
 				);
 			};
 			name = Release;
@@ -1369,12 +1427,16 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-device-info\RNDeviceInfo",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-i18n\RNI18n",
+					"$(SRCROOT)\..\node_modules\react-native-config\ios\ReactNativeConfig",
+					"$(SRCROOT)\..\node_modules\react-native-bgimage\ios\RNTBgImage",
 				);
 			};
 			name = Debug;
@@ -1408,12 +1470,16 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-device-info\RNDeviceInfo",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-i18n\RNI18n",
+					"$(SRCROOT)\..\node_modules\react-native-config\ios\ReactNativeConfig",
+					"$(SRCROOT)\..\node_modules\react-native-bgimage\ios\RNTBgImage",
 				);
 			};
 			name = Release;
@@ -1446,12 +1512,16 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-device-info\RNDeviceInfo",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-i18n\RNI18n",
+					"$(SRCROOT)\..\node_modules\react-native-config\ios\ReactNativeConfig",
+					"$(SRCROOT)\..\node_modules\react-native-bgimage\ios\RNTBgImage",
 				);
 			};
 			name = Debug;
@@ -1484,12 +1554,16 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-device-info\RNDeviceInfo",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-i18n\RNI18n",
+					"$(SRCROOT)\..\node_modules\react-native-config\ios\ReactNativeConfig",
+					"$(SRCROOT)\..\node_modules\react-native-bgimage\ios\RNTBgImage",
 				);
 			};
 			name = Release;

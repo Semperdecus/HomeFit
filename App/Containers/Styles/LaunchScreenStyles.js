@@ -1,18 +1,29 @@
 import { StyleSheet } from 'react-native'
-import { Metrics, ApplicationStyles } from '../../Themes/'
+import { Fonts, Colors, Metrics, ApplicationStyles } from '../../Themes/'
 
 export default StyleSheet.create({
   ...ApplicationStyles.screen,
   container: {
     paddingBottom: Metrics.baseMargin
   },
-  logo: {
-    marginTop: Metrics.doubleSection,
-    height: Metrics.images.logo,
-    width: Metrics.images.logo,
-    resizeMode: 'contain'
+  innerContainer: {
+    marginLeft: Metrics.baseMargin,
+    marginRight: Metrics.baseMargin,
+    paddingBottom: Metrics.baseMargin
   },
-  centered: {
-    alignItems: 'center'
+  title: {
+    textAlign: 'center',
+    color: Colors.white,
+    fontFamily: Fonts.type.base,
+    fontSize: 24,
+    marginBottom: Metrics.doubleBaseMargin,
+    marginTop: Metrics.baseMargin
+  },
+  listItem: {
+    margin: -5,
+    marginLeft: Metrics.baseMargin,
+    marginRight: Metrics.baseMargin,
+    paddingBottom: Metrics.baseMargin
+
   }
 })
