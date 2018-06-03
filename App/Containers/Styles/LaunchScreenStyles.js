@@ -24,6 +24,5 @@ export default StyleSheet.create({
     marginLeft: Metrics.baseMargin,
     marginRight: Metrics.baseMargin,
     paddingBottom: Metrics.baseMargin
-
   }
 })

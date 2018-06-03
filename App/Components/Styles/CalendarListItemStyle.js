@@ -11,12 +11,24 @@ export default StyleSheet.create({
     marginTop: Metrics.baseMargin,
     borderLeftWidth: 5,
     borderColor: Colors.red,
-    justifyContent: 'center'
+    overflow: 'hidden'
   },
-  textEmphasis: {
-    alignSelf: 'center',
-    fontFamily: Fonts.type.emphasis,
-    fontSize: Fonts.size.h6,
-    color: 'white'
-  }
+  standaloneRowFront: {
+    alignItems: 'center',
+    backgroundColor: Colors.background,
+    justifyContent: 'center',
+    height: 50,
+    paddingLeft: -5,
+  },
+  standaloneRowBack: {
+    alignItems: 'center',
+    backgroundColor: Colors.red,
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    padding: 14,
+    overflow: 'hidden',
+    borderTopRightRadius: 5,
+    borderBottomRightRadius: 5,
+  },
 })

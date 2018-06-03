@@ -1,18 +1,19 @@
 import React, { Component } from 'react'
-// import PropTypes from 'prop-types';
 import { ActivityIndicator, View, Text } from 'react-native'
-import * as Animatable from 'react-native-animatable'
 
-// Styles
+// Styles & Icons
 import styles from './Styles/FitCalendarStyle'
 import { Colors, Images, Fonts } from '../Themes'
-
-// Components
-import { Calendar } from '../Lib/react-native-calendars'
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons'
 import Entypo from 'react-native-vector-icons/Entypo'
-import Moment from 'moment'
+import LottieView from 'lottie-react-native';
 
+// Packages
+import { Calendar } from '../Lib/react-native-calendars'
+import Moment from 'moment'
+import * as Animatable from 'react-native-animatable'
+
+// Properties
 const _format = 'YYYY-MM-DD'
 const stretch = { color: Colors.yellow }
 const pushUp = { color: Colors.red }
@@ -138,7 +139,7 @@ export default class FitCalendar extends Component {
 
   determineActivities(itemSummary){
     let returnArr = {}
-    let runEntry = /^[A-Za-z0-9_, '-]{3,100}$/
+    let runEntry = /^[A-Za-z0-9_,. '-]{3,100}$/
 
     if(itemSummary.toUpperCase().includes('Voetbal'.toUpperCase())
       || itemSummary.toUpperCase().includes('Varen'.toUpperCase())) {
@@ -146,27 +147,33 @@ export default class FitCalendar extends Component {
       if(itemSummary.includes('km')){
         returnArr.distance = this.determineDetails(itemSummary, 'distance')
       }
+      returnArr.summary = itemSummary
       returnArr.dots = [other]
     } else if(itemSummary.toUpperCase().includes('fitness'.toUpperCase())) {
       returnArr.activity = 'pushUp'
+      returnArr.summary = itemSummary
       returnArr.dots = [pushUp]
     } else if(itemSummary.toUpperCase().includes('push up'.toUpperCase())) {
       returnArr.activity = 'pushUp'
       returnArr.number = this.determineDetails(itemSummary, 'number')
+      returnArr.summary = itemSummary
       returnArr.dots = [pushUp]
     } else if(itemSummary.toUpperCase().includes('stretch'.toUpperCase())) {
       returnArr.activity = 'stretch'
       returnArr.time = this.determineDetails(itemSummary, 'time')
       returnArr.bodyPart = this.determineDetails(itemSummary, 'bodyPart')
+      returnArr.summary = itemSummary
       returnArr.dots = [stretch]
     } else if(runEntry.test(itemSummary)){
       returnArr.activity = 'run'
       returnArr.distance = this.determineDetails(itemSummary, 'distance')
       returnArr.time = this.determineDetails(itemSummary, 'time')
       returnArr.location = this.determineDetails(itemSummary, 'location')
+      returnArr.summary = itemSummary
       returnArr.dots = [run]
     } else {
       returnArr.activity = 'other'
+      returnArr.summary = itemSummary
       returnArr.dots = [other]
     }
     return returnArr
@@ -210,6 +217,7 @@ export default class FitCalendar extends Component {
 
   componentDidMount () {
     this.getData()
+    this.animation.play();
   }
 
   async getData (){
@@ -266,8 +274,13 @@ export default class FitCalendar extends Component {
 
     if(this.state.isLoadingCalendar){
       return (
-        <View style={{ flex: 1, padding: 20 }}>
-          <ActivityIndicator />
+        <View style={{ flex: 1, marginTop: 50, padding: 20 }}>
+          <LottieView
+            ref={animation => {
+              this.animation = animation;
+            }}
+            source={Images.loading}
+          />
         </View>
       )
     }

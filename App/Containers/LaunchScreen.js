@@ -36,6 +36,7 @@ export default class LaunchScreen extends Component {
             renderItem={({ item }) => (
               <View style={styles.listItem}>
                 <CalendarListItem
+                  item={item}
                   red
                 />
               </View>
