@@ -11,4 +11,4 @@ Personal mobile fitness app linked to google calendars.
 - React Native best practices
 
 ## Architecture and research
-For more information see the [Related Document](https://github.com/Semperdecus/HomeFit/blob/master/docs/document.docx) (Dutch)
+For more information see the [Related Document](https://github.com/Semperdecus/HomeFit/blob/master/docs) (Dutch)
