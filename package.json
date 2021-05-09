@@ -28,7 +28,7 @@
     "format-json": "^1.0.3",
     "identity-obj-proxy": "^3.0.0",
     "ignite-ir-boilerplate": "^2.3.3",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.21",
     "lottie-react-native": "^2.5.0",
     "moment": "^2.22.2",
     "prop-types": "15.6.0",
